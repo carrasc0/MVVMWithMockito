@@ -1,6 +1,6 @@
 package com.example.testapp.model
 
-class GithubRepository(
+data class GithubRepository(
     val id: String,
     val full_name: String,
     val descriptor: String,
